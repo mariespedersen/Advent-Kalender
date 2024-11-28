@@ -51,16 +51,6 @@ def generate_direction(row):
 ########################################
 # 4. Advent
 ########################################
-# Generer data for lagerets poser
-# np.random.seed(42)
-# n_poses = 200  # Antal poser
-# data = {
-#     "Farve": np.random.choice(["Rød", "Grøn", "Blå", "Gul"], size=n_poses),
-#     "Størrelse": np.random.choice(["Lille", "Mellem", "Stor"], size=n_poses, p=[0.6, 0.3, 0.1]),
-#     "Vægt": np.random.uniform(1, 30, size=n_poses),
-#     "LagerX": np.random.randint(0, 100, size=n_poses),  # X-koordinat på lageret
-#     "LagerY": np.random.randint(0, 100, size=n_poses),  # Y-koordinat på lageret
-# }
 # Generér data for juleposer med eksponentiel fordeling for vægten
 np.random.seed(42)
 n_poses = 300
